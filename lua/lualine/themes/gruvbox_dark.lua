@@ -4,7 +4,7 @@
 local colors = {
   black        = '#282828',
   white        = '#ebdbb2',
-  red          = '#fb4934',
+  red          = '#cc241d',
   green        = '#b8bb26',
   blue         = '#83a598',
   yellow       = '#fe8019',
@@ -26,9 +26,9 @@ return {
     c = { bg = colors.lightgray, fg = colors.white },
   },
   visual = {
-    a = { bg = colors.yellow, fg = colors.black, gui = 'bold' },
+    a = { bg = colors.red, fg = colors.white, gui = 'bold'},
     b = { bg = colors.lightgray, fg = colors.white },
-    c = { bg = colors.inactivegray, fg = colors.black },
+    c = { bg = colors.darkgray, fg = colors.gray}
   },
   replace = {
     a = { bg = colors.red, fg = colors.black, gui = 'bold' },
@@ -39,6 +39,11 @@ return {
     a = { bg = colors.green, fg = colors.black, gui = 'bold' },
     b = { bg = colors.lightgray, fg = colors.white },
     c = { bg = colors.inactivegray, fg = colors.black },
+  },
+  terminal = {
+    a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
+    b = {bg = colors.lightgray, fg = colors.white},
+    c = {bg = colors.inactivegray, fg = colors.black}
   },
   inactive = {
     a = { bg = colors.darkgray, fg = colors.gray, gui = 'bold' },
